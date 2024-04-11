@@ -3,6 +3,7 @@ html {
     margin: 0;
     padding: 0;
     word-wrap: break-word;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -20,12 +21,11 @@ header {
     width: 100vw;
 }
 
-main {
+div.section {
     width: 100vw;
     width: 100vw;
     display: flex;
     justify-content: center;
-
 }
 
 div.article {
@@ -33,6 +33,10 @@ div.article {
     padding: 90px 50px;
     flex: 1 1 auto;
     box-sizing: border-box;
+}
+
+div.article.continue {
+    padding: 90px 50px 20px 50px;
 }
 
 div.article h1 {

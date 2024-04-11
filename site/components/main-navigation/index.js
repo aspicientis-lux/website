@@ -1,7 +1,7 @@
 const setup = async () => {
 
   const parser = new DOMParser()
-  const resp = await fetch('/components/main-navigation/template.html')
+  const resp = await fetch('/site/components/main-navigation/template.html')
   const html = await resp.text()
   const template = parser.parseFromString(html, 'text/html').querySelector('template')
 

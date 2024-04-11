@@ -3,26 +3,33 @@
 
 <head>
     <meta charset="utf-8" />
+    <title>Aspicientis Lux</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="stylesheet" href="./styles/shared.css" />
-    <link rel="stylesheet" href="./styles/image-navigation.css" />
+    <link rel="stylesheet" href="/site/styles/shared.css" />
+    <link rel="stylesheet" href="/site/styles/image-navigation.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Oxygen:wght@300;400;700&display=swap"
         rel="stylesheet">
-    <script type="module" src="./components/main-navigation/index.js"></script>
-    <script type="module" src="./components/featured-image/index.js"></script>
-    <script type="module" src="./components/image-navigation/index.js"></script>
+    <script type="module" src="/site/components/main-navigation/index.js"></script>
+    <script type="module" src="/site/components/scroll-to-top/index.js"></script>
+    <script type="module" src="/site/components/featured-image/index.js"></script>
+    <script type="module" src="/site/components/image-navigation/index.js"></script>
+
+    <link rel="icon" href="/site/icons/camera-32x32.png" sizes="32x32" />
+    <link rel="icon" href="/site/icons/camera-32x32.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/site/icons/camera-180x180.png" />
 </head>
 
 <body>
+    <scroll-to-top></scroll-to-top>
     <header>
         <main-navigation page="home" /></main-navigation>
-        <featured-image src="./images/large/art/stilleven.jpg"></featured-image>
+        <featured-image src="/site/images/large/art/stilleven.jpg"></featured-image>
     </header>
-    <main>
+    <div class="section">
         <div class="article">
             <h1>An Endeavor into photography</h1>
             <p>
@@ -44,13 +51,13 @@
                 the world.
             </p>
         </div>
-    </main>
+    </div>
     <div class="image-navigation">
         <div class="wrapper">
-            <a href="./pages/birds.html"><img src="./images/thumb/birds/platalea-leucorodia.jpg" /></a>
-            <a href="./pages/wild-life.html"><img src="./images/thumb/wild-life/cervus-elaphus-2.jpg" /></a>
-            <a href="./pages/landscapes.html"><img src="./images/thumb/landscapes/ireland-1.jpg" /></a>
-            <a href="./pages/art.html"><img src="./images/thumb/art/stilleven.jpg" /></a>
+            <a href="/site/pages/birds.html"><img src="/site/images/thumb/birds/platalea-leucorodia.jpg" /></a>
+            <a href="/site/pages/wild-life.html"><img src="/site/images/thumb/wild-life/cervus-elaphus-2.jpg" /></a>
+            <a href="/site/pages/landscapes.html"><img src="/site/images/thumb/landscapes/ireland-1.jpg" /></a>
+            <a href="/site/pages/art.html"><img src="/site/images/thumb/art/stilleven.jpg" /></a>
         </div>
     </div>
     <footer>
