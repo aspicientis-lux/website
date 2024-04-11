@@ -1,7 +1,12 @@
-const setup = async () => {
+(async () => {
+
+  // Get the base or the template
+  const scriptUrl = import.meta.url;
+  const base = scriptUrl.substring(0, scriptUrl.length - 41);
+
 
   const parser = new DOMParser()
-  const resp = await fetch('/site/components/main-navigation/template.html')
+  const resp = await fetch(`${base}/site/components/main-navigation/template.html`)
   const html = await resp.text()
   const template = parser.parseFromString(html, 'text/html').querySelector('template')
 
@@ -19,6 +24,5 @@ const setup = async () => {
   }
 
   customElements.define('main-navigation', component);
-}
 
-export default await setup();
+})();
