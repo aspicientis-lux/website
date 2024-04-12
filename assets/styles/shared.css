@@ -66,6 +66,13 @@ div.article h2 {
     line-height: 1.46;
 }
 
+div.article p {
+    color: #999999;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.75;
+    font-family: "Oxygen", sans-serif;
+}
 
 @media screen and (min-width: 1500px) {
     div.article h1 {
@@ -76,15 +83,13 @@ div.article h2 {
     div.article h2 {
         font-size: 2rem;
     }
+
+    div.article p {
+        font-size: 1.125rem;
+    }
 }
 
-div.article p {
-    color: #999999;
-    font-size: 1rem;
-    font-weight: normal;
-    line-height: 1.75;
-    font-family: "Oxygen", sans-serif;
-}
+
 
 footer {
     margin-top: 60px;
