@@ -33,7 +33,7 @@ class FeaturedImage extends HTMLElement {
                     visibility: hidden;
                 }
             </style>
-            <div><img src="${this.src}" /></div>
+            <div><img fetchpriority="low" src="${this.src}" /></div>
         `;
     }
 }

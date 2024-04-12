@@ -5,8 +5,9 @@
     <meta charset="utf-8" />
     <title>Aspicientis Lux</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="stylesheet" href="/site/styles/shared.css" />
-    <link rel="stylesheet" href="/site/styles/image-navigation.css" />
+    <link rel="stylesheet" href="./assets/styles/shared.css" />
+
+    <!-- include the required fonts from google-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -14,20 +15,22 @@
         href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Oxygen:wght@300;400;700&display=swap"
         rel="stylesheet">
 
-    <script type="module" src="/site/components/main-navigation/index.js"></script>
-    <script type="module" src="/site/components/scroll-to-top/index.js"></script>
-    <script type="module" src="/site/components/featured-image/index.js"></script>
+    <!-- include the components for this website -->
+    <link rel="stylesheet" href="./assets/components/image-navigation/style.css" />
+    <script type="module" src="./assets/components/main-navigation/index.js"></script>
+    <script type="module" src="./assets/components/scroll-to-top/index.js"></script>
+    <script type="module" src="./assets/components/featured-image/index.js"></script>
 
-    <link rel="icon" href="/site/icons/camera-32x32.png" sizes="32x32" />
-    <link rel="icon" href="/site/icons/camera-32x32.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="/site/icons/camera-180x180.png" />
+    <link rel="icon" href="./assets/icons/camera-32x32.png" sizes="32x32" />
+    <link rel="icon" href="./assets/icons/camera-32x32.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="./assets/icons/camera-180x180.png" />
 </head>
 
 <body>
     <scroll-to-top></scroll-to-top>
     <header>
         <main-navigation page="home" /></main-navigation>
-        <featured-image src="/site/images/large/art/stilleven.jpg"></featured-image>
+        <featured-image src="./images/art/stilleven-1800.jpg"></featured-image>
     </header>
     <div class="section">
         <div class="article">
@@ -53,10 +56,10 @@
         </div>
     </div>
     <div class="image-navigation">
-        <a href="/site/pages/birds.html"><img src="/site/images/thumb/birds/platalea-leucorodia.jpg" /></a>
-        <a href="/site/pages/wild-life.html"><img src="/site/images/thumb/wild-life/cervus-elaphus-2.jpg" /></a>
-        <a href="/site/pages/landscapes.html"><img src="/site/images/thumb/landscapes/ireland-1.jpg" /></a>
-        <a href="/site/pages/art.html"><img src="/site/images/thumb/art/stilleven.jpg" /></a>
+        <a href="./pages/birds.html"><img src="./images/birds/platalea-leucorodia-500.jpg" /></a>
+        <a href="./pages/wild-life.html"><img src="./images/wild-life/cervus-elaphus-2-500.jpg" /></a>
+        <a href="./pages/landscapes.html"><img src="./images/landscapes/ireland-1-500.jpg" /></a>
+        <a href="./pages/art.html"><img src="./images/art/stilleven-500.jpg" /></a>
     </div>
     <footer>
         Copyright © 2024 <span class="bright">Aspicientis Lux</span>
