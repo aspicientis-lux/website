@@ -17,7 +17,7 @@
 
     <!-- include the components for this website -->
     <link rel="stylesheet" href="./assets/components/image-navigation/style.css" />
-    <script type="module" src="./assets/components/main-navigation/index.js"></script>
+    <link rel="stylesheet" href="./assets/components/main-navigation/style.css" />
     <script type="module" src="./assets/components/scroll-to-top/index.js"></script>
     <script type="module" src="./assets/components/featured-image/index.js"></script>
 
@@ -29,7 +29,19 @@
 <body>
     <scroll-to-top></scroll-to-top>
     <header>
-        <main-navigation page="home" /></main-navigation>
+        <nav class="main">
+            <a class="logo" href="/">aspicientis lux</a>
+            <div class="links">
+                <a href="/">Home</a>
+                <a href="/pages/news.html">News</a>
+                <a href="/pages/birds.html">Birds</a>
+                <a href="/pages/landscape.html">Landscape</a>
+                <a href="/pages/wildlife.html">Wildlife</a>
+                <a href="/pages/art.html">Art</a>
+            </div>
+            <div class="hamburger">menu</div>
+        </nav>
+        <script src="./assets/components/main-navigation/index.js"></script>
         <featured-image src="./images/art/stilleven-1800.jpg"></featured-image>
     </header>
     <div class="section">

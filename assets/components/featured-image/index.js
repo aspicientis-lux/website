@@ -1,4 +1,6 @@
-class FeaturedImage extends HTMLElement {
+(() => {
+
+  class FeaturedImage extends HTMLElement {
     constructor() {
       super();
       this.src = '';
@@ -36,6 +38,8 @@ class FeaturedImage extends HTMLElement {
             <div><img fetchpriority="low" src="${this.src}" /></div>
         `;
     }
-}
+  }
 
-customElements.define('featured-image', FeaturedImage);
+  customElements.define('featured-image', FeaturedImage);
+
+})();

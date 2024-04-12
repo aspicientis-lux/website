@@ -17,7 +17,7 @@
 
     <!-- include the components for this website -->
     <link rel="stylesheet" href="../assets/components/image-navigation/style.css" />
-    <script type="module" src="../assets/components/main-navigation/index.js"></script>
+    <link rel="stylesheet" href="../assets/components/main-navigation/style.css" />
     <script type="module" src="../assets/components/scroll-to-top/index.js"></script>
 
     <link rel="icon" href="../assets/icons/camera-32x32.png" sizes="32x32" />
@@ -26,8 +26,21 @@
 </head>
 
 <body>
+    <scroll-to-top></scroll-to-top>
     <header>
-        <main-navigation page="home" /></main-navigation>
+        <nav class="main">
+            <a class="logo" href="/">aspicientis lux</a>
+            <div class="links">
+                <a href="../">Home</a>
+                <a href="./news.html">News</a>
+                <a href="./birds.html">Birds</a>
+                <a href="./landscape.html">Landscape</a>
+                <a href="/wildlife.html">Wildlife</a>
+                <a href="/art.html">Art</a>
+            </div>
+            <div class="hamburger">menu</div>
+        </nav>
+        <script src="../assets/components/main-navigation/index.js"></script>
     </header>
     <div class="section">
         <div class="article continue">
@@ -41,11 +54,10 @@
         </div>
     </div>
     <div class="image-navigation col-3">
-        <div class="wrapper">
-            <a href="./birds.html"><img src="../images/birds/platalea-leucorodia-500.jpg" /></a>
-            <a href="./wild-life.html"><img src="../images/wild-life/cervus-elaphus-2-500.jpg" /></a>
-            <a href="./landscapes.html"><img src="../images/landscapes/ireland-1-500.jpg" /></a>
-        </div>
+        <a href="./birds.html"><img src="../images/birds/platalea-leucorodia-500.jpg" /></a>
+        <a href="./wild-life.html"><img src="../images/wild-life/cervus-elaphus-2-500.jpg" /></a>
+        <a href="./landscapes.html"><img src="../images/landscapes/ireland-1-500.jpg" /></a>
+    </div>
     </div>
     <div class="section">
         <div class="article continue">

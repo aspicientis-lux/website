@@ -1,81 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Oxygen:wght@300;400;700&display=swap');
 
-:host {
+/* define colors and other variables */
+body {
     --yellow: #ffbf00;
 }
 
-div.wrapper {
-    display: block !important;
+/* the general nac container */
+nav.main {
+    display: flex;
+    padding: 28px 20px;
+    width: 100vw;
+    max-width: 1500px;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: absolute;
+    align-items: center;
 }
 
-a {
+@media screen and (min-width: 400px) {
+    nav.main {
+        padding: 28px 30px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    nav.main {
+        padding: 40px 50px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    nav.main {
+        left: calc(50vw - 750px);
+    }
+}
+
+/* General css for hyperlinks */
+nav.main a {
     transition: color 0.3s ease-in-out;
+    transition: background-image 0.3s ease-in-out;
     color: white;
     text-decoration: none;
     font-family: "Oxygen", sans-serif;
 }
 
-a:hover {
+nav.main a:hover {
     color: var(--yellow);
     outline: 0;
 }
 
-a:active {
+nav.main a:active {
     outline: 0;
 }
 
-div.wrapper {
-    width: 100vw;
-    display: flex;
-    position: absolute;
-    z-index: 1;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-/* the general nac container */
-nav {
-    display: flex;
-    padding: 28px 30px;
-    max-width: 1500px;
-    flex: 1 1 auto;
-    box-sizing: border-box;
-    align-items: center;
-}
-
-@media screen and (min-width: 1000px) {
-    nav {
-        padding: 40px 40px;
-    }
-}
-
 /* Defines the logo (name) */
-.logo {
+nav.main a.logo {
     font-family: "Oswald", serif;
     font-style: normal;
     line-height: 1.15;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 400px) {
+    nav.main a.logo {
+        font-size: 1.25rem;
+        letter-spacing: 5.5px;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    nav.main a.logo {
+        font-size: 1.5rem;
+        letter-spacing: 7.5px;
+    }
 }
 
 @media screen and (min-width: 800px) {
-    .logo {
+    nav.main a.logo {
         font-size: 1.875rem;
         letter-spacing: 7.5px;
     }
 }
 
 @media screen and (min-width: 1000px) {
-    .logo {
+    nav.main a.logo {
         font-size: 1.875rem;
         letter-spacing: 7.5px;
     }
 }
 
-div.hamburger {
+/* General definitions for the hamburger menu */
+nav.main div.hamburger {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -85,49 +105,34 @@ div.hamburger {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1rem;
-    line-height: 1;
     cursor: pointer;
+    background: url('../../icons/bar_white.png') calc(100% - 50px) calc(50% + 1px) no-repeat;
+    min-width: 80px;
+    padding-top: 2px;
 }
 
-div.hamburger svg {
-    height: 26px;
-    margin-right: -5px;
-}
-
-div.hamburger:hover {
+nav.main div.hamburger:hover {
     color: var(--yellow);
+    background-image: url('../../icons/bar_yellow.png');
 }
+
 
 @media screen and (min-width: 1000px) {
-    div.hamburger {
+    nav.main div.hamburger {
         display: none;
     }
 }
 
-/** buttons in hamburger menu -- remember collapsed is default! **/
-svg.bar {
-    display: none;
+nav.main.expanded div.hamburger {
+    background-image: url('../../icons/close_white.png');
 }
 
-svg.close {
-    display: initial;
+nav.main.expanded div.hamburger:hover {
+    background-image: url('../../icons/close_yellow.png');
 }
-
-nav.collapsed svg.bar {
-    display: initial;
-}
-
-nav.collapsed svg.close {
-    display: none;
-}
-
 
 /** define links for a small screen device **/
-nav.collapsed div.links {
-    width: 0;
-}
-
-div.links {
+nav.main div.links {
     position: absolute;
     top: 84px;
     background-color: #121212;
@@ -135,11 +140,11 @@ div.links {
     right: 0;
     padding: 0.875rem 0;
     font-size: 0.875rem;
-    width: 100vw;
+    width: 0;
     transition: width 0.75s ease-in-out;
 }
 
-div.links a {
+nav.main div.links a {
     display: block;
     margin: 2rem;
     line-height: 1rem;
@@ -148,20 +153,28 @@ div.links a {
     box-sizing: border-box;
 }
 
+nav.main.expanded div.links {
+    width: 100vw;
+}
+
+
 /** define the menu for medium sized screens */
 @media screen and (min-width: 800px) {
 
-    div.links {
-        width: 50vw;
+    nav.main div.links {
         right: 30px;
         transition: width 0.375s ease-in-out;
+    }
+
+    nav.main.expanded div.links {
+        width: 50vw;
     }
 }
 
 /** define the menu for large screens */
 @media screen and (min-width: 1000px) {
 
-    div.links {
+    nav.main div.links {
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -176,7 +189,7 @@ div.links a {
 
     }
 
-    div.links a {
+    nav.main div.links a {
         padding: 0 16px;
         line-height: 2;
         text-transform: capitalize;
@@ -185,7 +198,7 @@ div.links a {
         height: unset;
     }
 
-    nav.collapsed div.links {
+    nav.main.expanded div.links {
         width: unset;
     }
 }
