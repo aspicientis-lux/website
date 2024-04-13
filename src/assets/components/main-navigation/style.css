@@ -106,14 +106,14 @@ nav.main div.hamburger {
     font-weight: 500;
     font-size: 1rem;
     cursor: pointer;
-    background: url('../../icons/bar_white.png') calc(100% - 50px) calc(50% + 1px) no-repeat;
+    background: url('/assets/icons/bar_white.png') calc(100% - 50px) calc(50% + 1px) no-repeat;
     min-width: 80px;
     padding-top: 2px;
 }
 
 nav.main div.hamburger:hover {
     color: var(--yellow);
-    background-image: url('../../icons/bar_yellow.png');
+    background-image: url('/assets/icons/bar_yellow.png');
 }
 
 
@@ -124,11 +124,11 @@ nav.main div.hamburger:hover {
 }
 
 nav.main.expanded div.hamburger {
-    background-image: url('../../icons/close_white.png');
+    background-image: url('/assets/icons/close_white.png');
 }
 
 nav.main.expanded div.hamburger:hover {
-    background-image: url('../../icons/close_yellow.png');
+    background-image: url('/assets/icons/close_yellow.png');
 }
 
 /** define links for a small screen device **/
