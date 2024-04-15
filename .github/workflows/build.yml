@@ -11,15 +11,13 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     steps:
-    # PHP GitHub Action created by https://github.com/nanasess
     - uses: actions/checkout@master
     - uses: nanasess/setup-php@master
       with:
         php-version: '8.0'
-    # This triggers our php file we created before
     - run: php ./build.php
-  deploy:
-    uses: peaceiris/actions-gh-pages@v4
-    with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      publish_dir: ./build
+    - uses: tsunematsu21/actions-publish-gh-pages@v1.0.2
+      with:
+        dir: build
+        branch: gh-pages
+        token: ${{ secrets.GITHUB_TOKEN }}
