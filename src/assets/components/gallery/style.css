@@ -198,3 +198,22 @@ div.gallery figure.fullscreen img {
 div.gallery figure.fullscreen div::before {
     content: '\002715';
 }
+
+div.gallery figure figcaption {
+    text-align: center;
+    width: calc(100% - 1px);
+    left: 0.5px;
+    color: var(--text);
+    background-color: var(--background);
+    position: absolute;
+    bottom: 0px;
+    padding: 8px;
+    font-family: "Oxygen", sans-serif;
+    font-size: 0.75rem;
+}
+
+div.gallery figure.fullscreen figcaption {
+    background-color: var(--header-text);
+    color: var(--background);
+    padding-bottom: 16px;
+}

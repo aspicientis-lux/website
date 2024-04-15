@@ -81,14 +81,12 @@
     <div class="image-navigation col-1">
         <a href="/pages/birds/anser-anser.php"><img src="/images/birds/anser-anser-1800.jpg" /></a>
     </div>
-    <div class="section">
-        <div class="article continue">
-            <h2>City</h2>
-            <p>
-                Urban areas are full of avian life, even though they can be a nuisance at times.
-                If you look closely, you will discover many wonders.
-            </p>
-        </div>
+    <div class="article continue">
+        <h2>City</h2>
+        <p>
+            Urban areas are full of avian life, even though they can be a nuisance at times.
+            If you look closely, you will discover many wonders.
+        </p>
     </div>
     <div class="image-navigation col-1">
         <a href="/pages/birds/columba-livia-domestica.php">

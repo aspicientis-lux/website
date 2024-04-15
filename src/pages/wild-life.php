@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Aspicientis Lux - wild-life</title>
+    <title>Aspicientis Lux - Wild Life</title>
     <?php include '../snippets/header.php'; ?>
 
     <!-- include the components for this website -->
