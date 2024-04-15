@@ -16,6 +16,12 @@ function generate($options) {
     foreach($files as $file) {
         process_file($options->base_path, $file);
     }
+
+    foreach($options->static as $folder) {
+        $source = $src_path . DIRECTORY_SEPARATOR . $folder;
+        $destination = $options->base_path . DIRECTORY_SEPARATOR . 'build' . DIRECTORY_SEPARATOR . $folder;
+        shell_exec("cp -R $source $destination");
+    }
 }
 
 function get_php_files($dir, $exclude) {
