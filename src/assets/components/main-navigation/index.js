@@ -1,4 +1,4 @@
-(async () => {
+(() => {
 
   document
     .querySelector("div.hamburger")

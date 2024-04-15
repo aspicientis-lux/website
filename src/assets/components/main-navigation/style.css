@@ -142,6 +142,7 @@ nav.main div.links {
     font-size: 0.875rem;
     width: 0;
     transition: width 0.75s ease-in-out;
+    z-index: 1;
 }
 
 nav.main div.links a {

@@ -26,9 +26,9 @@
         </div>
     </div>
     <div class="image-navigation col-3">
-        <a href="/pages/birds/platalea-leucorodia.html"><img src="/images/birds/platalea-leucorodia-500.jpg" /></a>
-        <a href="/pages/birds/anas-platyrhynchos.html"><img src="/images/birds/anas-platyrhynchos-500.jpg" /></a>
-        <a href="/pages/birds/podiceps-cristatus.html"><img src="/images/birds/podiceps-cristatus-500.jpg" /></a>
+        <a href="/pages/birds/platalea-leucorodia.php"><img src="/images/birds/platalea-leucorodia-500.jpg" /></a>
+        <a href="/pages/birds/anas-platyrhynchos.php"><img src="/images/birds/anas-platyrhynchos-500.jpg" /></a>
+        <a href="/pages/birds/podiceps-cristatus.php"><img src="/images/birds/podiceps-cristatus-500.jpg" /></a>
     </div>
     <div class="section">
         <div class="article continue">
@@ -40,9 +40,9 @@
         </div>
     </div>
     <div class="image-navigation col-3">
-        <a href="/pages/birds/fulica-atra.html"><img src="/images/birds/fulica-atra-500.jpg" /></a>
-        <a href="/pages/birds/cygnus-olor.html"><img src="/images/birds/cygnus-olor-500.jpg" /></a>
-        <a href="/pages/birds/gallinago-gallinago.html"><img src="/images/birds/gallinago-gallinago-500.jpg" /></a>
+        <a href="/pages/birds/fulica-atra.php"><img src="/images/birds/fulica-atra-500.jpg" /></a>
+        <a href="/pages/birds/cygnus-olor.php"><img src="/images/birds/cygnus-olor-500.jpg" /></a>
+        <a href="/pages/birds/gallinago-gallinago.php"><img src="/images/birds/gallinago-gallinago-500.jpg" /></a>
     </div>
     <div class="section">
         <div class="article continue">
@@ -56,15 +56,15 @@
     </div>
 
     <div class="image-navigation col-3">
-        <a href="/pages/birds/erithacus-rubecula.html"><img src="/images/birds/erithacus-rubecula-500.jpg" /></a>
-        <a href="/pages/birds/parus-major.html"><img src="/images/birds/parus-major-500.jpg" /></a>
-        <a href="/pages/birds/turdus-philomelos.html"><img src="/images/birds/turdus-philomelos-500.jpg" /></a>
+        <a href="/pages/birds/erithacus-rubecula.php"><img src="/images/birds/erithacus-rubecula-500.jpg" /></a>
+        <a href="/pages/birds/parus-major.php"><img src="/images/birds/parus-major-500.jpg" /></a>
+        <a href="/pages/birds/turdus-philomelos.php"><img src="/images/birds/turdus-philomelos-500.jpg" /></a>
     </div>
     <div class="image-navigation col-2 vertical">
-        <a href="/pages/birds/garrulus-glandarius.html">
+        <a href="/pages/birds/garrulus-glandarius.php">
             <img class="cover" src="/images/birds/garrulus-glandarius-1800.jpg" />
         </a>
-        <a href="/pages/birds/cyanistes-caeruleus.html"><img src="/images/birds/cyanistes-caeruleus-1800.jpg" /></a>
+        <a href="/pages/birds/cyanistes-caeruleus.php"><img src="/images/birds/cyanistes-caeruleus-1800.jpg" /></a>
     </div>
     <div class="section">
         <div class="article continue">
@@ -79,7 +79,7 @@
         </div>
     </div>
     <div class="image-navigation col-1">
-        <a href="/pages/birds/anser-anser.html"><img src="/images/birds/anser-anser-1800.jpg" /></a>
+        <a href="/pages/birds/anser-anser.php"><img src="/images/birds/anser-anser-1800.jpg" /></a>
     </div>
     <div class="section">
         <div class="article continue">
@@ -91,7 +91,7 @@
         </div>
     </div>
     <div class="image-navigation col-1">
-        <a href="/pages/birds/columba-livia-domestica.html">
+        <a href="/pages/birds/columba-livia-domestica.php">
             <img src="/images/birds/columba-livia-domestica-1800.jpg" />
         </a>
     </div>
