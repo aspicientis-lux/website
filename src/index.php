@@ -14,7 +14,7 @@
     <scroll-to-top></scroll-to-top>
     <header>
         <?php include './snippets/navigation.php'; ?>
-        <featured-image src="/images/art/stilleven-1800.jpg"></featured-image>
+        <featured-image src="/images/art/kitchen-ready-1800.jpg"></featured-image>
     </header>
 
     <div class="article">
@@ -43,9 +43,7 @@
         <a href="/pages/birds.php"><img src="/images/birds/platalea-leucorodia-500.jpg" /></a>
         <a href="/pages/wild-life.php"><img src="/images/wild-life/cervus-elaphus-2-500.jpg" /></a>
         <a href="/pages/landscapes.php"><img src="/images/landscapes/ireland-1-500.jpg" /></a>
-        <a href="/pages/art.php"><img src="/images/art/stilleven-500.jpg" /></a>
+        <a href="/pages/art.php"><img src="/images/art/kitchen-ready-500.jpg" /></a>
     </div>
-    <footer>
-        Copyright © 2024 <span class="bright">Aspicientis Lux</span>
-    </footer>
+    <?php include '../snippets/footer.php'; ?>
 </body>

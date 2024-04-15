@@ -95,7 +95,5 @@
             <img src="/images/birds/columba-livia-domestica-1800.jpg" />
         </a>
     </div>
-    <footer>
-        Copyright © 2024 <span class="bright">Aspicientis Lux</span>
-    </footer>
+    <?php include '../snippets/footer.php'; ?>
 </body>

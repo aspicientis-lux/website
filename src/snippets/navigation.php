@@ -5,7 +5,7 @@
         <a href="/pages/news.php">News</a>
         <a href="/pages/birds.php">Birds</a>
         <a href="/pages/landscapes.php">Landscapes</a>
-        <a href="/pages/wildlife.php">Wildlife</a>
+        <a href="/pages/wild-life.php">Wild life</a>
         <a href="/pages/art.php">Art</a>
     </div>
     <div class="hamburger">menu</div>
