@@ -45,5 +45,5 @@
         <a href="/pages/landscapes.php"><img src="/images/landscapes/ireland-1-500.jpg" /></a>
         <a href="/pages/art.php"><img src="/images/art/kitchen-ready-500.jpg" /></a>
     </div>
-    <?php include '../snippets/footer.php'; ?>
+    <?php include './snippets/footer.php'; ?>
 </body>
