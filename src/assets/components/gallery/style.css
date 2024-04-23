@@ -88,7 +88,7 @@ div.gallery figure {
     max-height: calc(1400px * 0.66667);
 }
 
-div.gallery.col-2.portrait figure {
+div.gallery.portrait figure {
     flex: 0 0 100%;
     height: calc(100vw * 1.5);
     max-height: calc(1400px * 1.5);
@@ -107,6 +107,11 @@ div.gallery.col-2.portrait figure {
         flex: 0 0 33.333333%;
         height: calc(33.33333vw * 0.66667);
         max-height: calc(466.6666666px * 0.66667);
+    }
+
+    div.gallery.col-3.portrait figure {
+        height: calc(33.33333vw * 1.5);
+        max-height: calc(466.6666666px * 1.5);
     }
 
     div.gallery div.text {
