@@ -23,6 +23,7 @@
     <div class="section">
         <div class="article continue">
             <h1>Black and White</h1>
+            <!-- December 2023 -->
             <p>
                 Occasionally, when I encounter new people and collaborate with them for some time,
                 they express surprise that I don’t always have a definitive stance on things.

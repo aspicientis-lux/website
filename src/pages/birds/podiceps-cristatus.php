@@ -34,11 +34,11 @@
     <div class="gallery col-2">
         <figure>
             <div></div>
-            <img src="/images/birds/podiceps-Cristatus-1800.jpg" />
+            <img src="/images/birds/podiceps-cristatus-1800.jpg" />
         </figure>
         <figure>
             <div></div>
-            <img src="/images/birds/podiceps-Cristatus-2-1800.jpg" />
+            <img src="/images/birds/podiceps-cristatus-2-1800.jpg" />
         </figure>
     </div>
     <script src="/assets/components/gallery/index.js"></script>
