@@ -68,14 +68,12 @@ div.article h1 {
     font-size: 2.25rem;
     text-transform: uppercase;
     font-family: "Oswald", serif;
-    line-height: 1.46;
 }
 
 div.article h2,
 h2 {
     font-size: 1.5rem;
     font-family: "Oswald", serif;
-    line-height: 1.46;
 }
 
 div.article p,

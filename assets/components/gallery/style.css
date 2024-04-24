@@ -206,8 +206,9 @@ div.gallery figure.fullscreen div::before {
 
 div.gallery figure figcaption {
     text-align: center;
-    width: calc(100% - 1px);
-    left: 0.5px;
+    width: 100%;
+
+
     color: var(--text);
     background-color: var(--background);
     position: absolute;
@@ -215,6 +216,16 @@ div.gallery figure figcaption {
     padding: 8px;
     font-family: "Oxygen", sans-serif;
     font-size: 0.75rem;
+}
+
+@media screen and (min-width: 500px) {
+
+    div.gallery.col-2 figure figcaption,
+    div.gallery.col-3 figure figcaption,
+    div.gallery.col-4 figure figcaption {
+        width: calc(100% - 1px);
+        left: 0.5px;
+    }
 }
 
 div.gallery figure.fullscreen figcaption {
