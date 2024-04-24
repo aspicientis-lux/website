@@ -16,8 +16,8 @@
     </header>
 
     <div class="article news-article">
-        <div><img src="/images/news/costa-rica/featured.jpg" /></div>
-        <div>
+        <div class="image"><img src="/images/news/costa-rica/featured.jpg" /></div>
+        <div class="text">
             <h2>Costa Rica</h2>
             <p>
                 When an opportunity arises to travel, I wouldn’t say no. But when the
@@ -34,8 +34,7 @@
     </div>
 
     <div class="article news-article">
-
-        <div>
+        <div class="text">
             <h2>Black & white</h2>
             <p>
                 Today, I decided to experiment with black-and-white photography. I revisited
@@ -45,7 +44,7 @@
             </p>
             <a href="/pages/news/black-and-white-antwerp.php">Read more</a>
         </div>
-        <div><img src="/images/news/black-and-white-antwerp/featured.jpg" /></div>
+        <div class="image"><img src="/images/news/black-and-white-antwerp/featured.jpg" /></div>
     </div>
 
     <script src="/assets/components/gallery/index.js"></script>

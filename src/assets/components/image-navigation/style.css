@@ -9,7 +9,7 @@ div.image-navigation {
 }
 
 div.image-navigation a {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
     height: 100%;
     display: block;
     box-sizing: border-box;
@@ -21,6 +21,10 @@ div.image-navigation a {
     padding: 0;
     transition: filter 0.5s ease-out;
     filter: brightness(85%);
+
+    @media screen and (min-width: 400px) {
+        flex: 0 0 50%;
+    }
 
     @media screen and (min-width: 800px) {
         flex: 0 0 25%;
@@ -39,11 +43,17 @@ div.image-navigation img {
 }
 
 div.image-navigation.col-3 a {
-    flex: 0 0 calc(100% / 3);
+    @media screen and (min-width: 400px) {
+        flex: 0 0 calc(100% / 3);
+    }
 }
 
 div.image-navigation.col-2 a {
-    flex: 0 0 50%;
+
+    @media screen and (min-width: 400px) {
+        flex: 0 0 50%;
+    }
+
     max-width: 700px;
 }
 

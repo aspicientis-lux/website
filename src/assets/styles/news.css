@@ -10,6 +10,10 @@ div.news-article div {
     box-sizing: border-box;
 }
 
+div.news-article div.text {
+    padding-bottom: 1rem;
+}
+
 @media screen and (min-width: 800px) {
     div.news-article div {
         flex: 1 1 50%;
