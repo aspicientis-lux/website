@@ -17,7 +17,7 @@
     <div class="section">
         <div class="article continue">
             <h1>Costa Rica</h1>
-            <!-- February 2024 -->
+            <h2 class="date">February 2024</h2>
             <p>
                 When an opportunity arises to travel, I wouldn’t say no. But when the
                 destination is an incredible country for birding and wildlife enthusiasts,

@@ -23,7 +23,7 @@
     <div class="section">
         <div class="article continue">
             <h1>Black and White</h1>
-            <!-- December 2023 -->
+            <h2 class="date">December 2023</h2>
             <p>
                 Occasionally, when I encounter new people and collaborate with them for some time,
                 they express surprise that I don’t always have a definitive stance on things.
@@ -41,15 +41,15 @@
     <div class="gallery col-3 portrait">
         <figure>
             <div data-src="/images/news/black-and-white-antwerp/antwerp-2-1800.jpg"></div>
-            <img src="/images/news/black-and-white-antwerp/antwerp-2-600.jpg" />
+            <img src="/images/news/black-and-white-antwerp/antwerp-2-500.jpg" />
         </figure>
         <figure>
             <div data-src="/images/news/black-and-white-antwerp/antwerp-3-1800.jpg"></div>
-            <img src="/images/news/black-and-white-antwerp/antwerp-3-600.jpg" />
+            <img src="/images/news/black-and-white-antwerp/antwerp-3-500.jpg" />
         </figure>
         <figure>
             <div data-src="/images/news/black-and-white-antwerp/antwerp-4-1800.jpg"></div>
-            <img src="/images/news/black-and-white-antwerp/antwerp-4-600.jpg" />
+            <img src="/images/news/black-and-white-antwerp/antwerp-4-500.jpg" />
         </figure>
     </div>
     <script src="/assets/components/gallery/index.js"></script>
