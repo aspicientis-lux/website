@@ -14,7 +14,7 @@
     <scroll-to-top></scroll-to-top>
     <header>
         <?php include './snippets/navigation.php'; ?>
-        <featured-image src="/images/art/kitchen-ready-1800.jpg"></featured-image>
+        <featured-image src="/images/birds/platalea-leucorodia-1800.jpg"></featured-image>
     </header>
 
     <div class="article">
